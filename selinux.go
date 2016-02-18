@@ -10,7 +10,7 @@ package selinux
  By Vaughan Newton
 */
 
-// #cgo pkg-config: libselinux
+// #cgo pkg-config: libselinux libsepol
 // #include <selinux/selinux.h>
 // #include <stdlib.h>
 import "C"
